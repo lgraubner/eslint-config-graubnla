@@ -6,9 +6,8 @@ module.exports = {
   env: {
     browser: true,
     node: true,
-    amd: false,
-    mocha: false,
-    jasmine: false,
+    amd: true,
+    mocha: true,
   },
   ecmaFeatures: {},
   globals: {},
