@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-graubnla",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Personal ESLint config, based on Airbnb styleguide.",
   "main": "index.js",
   "scripts": {
