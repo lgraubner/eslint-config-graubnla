@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/lgraubner/eslint-config-graubnla",
   "peerDependencies": {
-    "eslint": "^1.10.3"
+    "eslint": "^2.0.0"
   },
   "dependencies": {
     "lodash": "^4.3.0"
