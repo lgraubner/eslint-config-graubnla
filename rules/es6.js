@@ -1,25 +1,13 @@
 module.exports = {
   'env': {
-    'es6': false
+    'es6': true
   },
-  'ecmaFeatures': {
-    'arrowFunctions': true,
-    'blockBindings': true,
-    'classes': true,
-    'defaultParams': true,
-    'destructuring': true,
-    'forOf': true,
-    'generators': false,
-    'modules': true,
-    'objectLiteralComputedProperties': true,
-    'objectLiteralDuplicateProperties': false,
-    'objectLiteralShorthandMethods': true,
-    'objectLiteralShorthandProperties': true,
-    'restParams': true,
-    'spread': true,
-    'superInFunctions': true,
-    'templateStrings': true,
-    'jsx': true
+  'parserOptions': {
+    'ecmaVersion': 6,
+    'sourceType': 'modules',
+    'ecmaFeatures': {
+      'jsx': true
+    },
   },
   'rules': {
     // enforces no braces where they can be omitted
@@ -31,7 +19,7 @@ module.exports = {
     // https://github.com/eslint/eslint/blob/master/docs/rules/arrow-spacing.md
     'arrow-spacing': [2, { 'before': true, 'after': true }],
     // verify super() callings in constructors
-    'constructor-super': 0,
+    'constructor-super': 2,
     // enforce the spacing around the * in generator functions
     'generator-star-spacing': 0,
     // disallow modifying variables of class declarations
@@ -57,6 +45,6 @@ module.exports = {
     // http://eslint.org/docs/rules/prefer-template
     'prefer-template': 2,
     // disallow generator functions that do not have yield
-    'require-yield': 0
+    'require-yield': 0,
   }
 };

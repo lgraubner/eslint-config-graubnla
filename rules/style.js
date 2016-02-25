@@ -100,10 +100,8 @@ module.exports = {
     'semi': [2, 'always'],
     // sort variables within the same declaration block
     'sort-vars': 0,
-    // require a space before certain keywords
-    'space-before-keywords': [2, 'always'],
-    // require a space after certain keywords
-    'space-after-keywords': [2, 'always'],
+    // require a space before and after certain keywords
+    'keyword-spacing': 2,
     // require or disallow space before blocks
     'space-before-blocks': 2,
     // require or disallow space before function opening parenthesis

@@ -9,7 +9,7 @@ module.exports = {
     amd: true,
     mocha: true,
   },
-  ecmaFeatures: {},
+  parserOptions: {},
   globals: {},
   rules: {},
 };

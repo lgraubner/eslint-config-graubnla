@@ -2,7 +2,9 @@
 
 [![npm](https://img.shields.io/npm/v/eslint-config-graubnla.svg)](https://www.npmjs.com/package/eslint-config-graubnla)
 
-This is basicly a fork of `eslint-config-airbnb` with some minor personal tweaks.
+This is basicly a fork of `eslint-config-airbnb` with some personal tweaks.
+
+**This config is using ESLint 2**
 
 ## Usage
 
