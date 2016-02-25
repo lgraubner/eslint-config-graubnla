@@ -111,8 +111,6 @@ module.exports = {
     'space-in-parens': [2, 'never'],
     // require spaces around operators
     'space-infix-ops': 2,
-    // require a space after return, throw, and case
-    'space-return-throw-case': 2,
     // Require or disallow spaces before/after unary operators
     'space-unary-ops': 0,
     // require or disallow a space immediately following the // or /* in a comment
