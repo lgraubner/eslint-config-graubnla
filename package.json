@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-graubnla",
-  "version": "2.0.2",
+  "version": "3.0.0",
   "description": "Personal ESLint config, based on Airbnb styleguide.",
   "main": "index.js",
   "scripts": {
@@ -22,12 +22,15 @@
     "email": "mail@larsgraubner.de",
     "url": "http://larsgraubner.de"
   },
+  "engines": {
+    "node": ">=4"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/lgraubner/eslint-config-graubnla/issues"
   },
   "homepage": "https://github.com/lgraubner/eslint-config-graubnla",
   "peerDependencies": {
-    "eslint": "^2.2.0"
+    "eslint": "^3.0.0"
   }
 }
