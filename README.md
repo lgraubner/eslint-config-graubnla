@@ -1,3 +1,5 @@
+# *DEPRECATED - this package is not maintained anymore*
+
 # eslint-config-graubnla
 
 [![npm](https://img.shields.io/npm/v/eslint-config-graubnla.svg)](https://www.npmjs.com/package/eslint-config-graubnla)
