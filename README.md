@@ -1,4 +1,4 @@
-# *DEPRECATED - this package is not maintained anymore*
+##### *DEPRECATED - This repository is deprecated and will not be updated anymore. Use at your own risk.*
 
 # eslint-config-graubnla
 
